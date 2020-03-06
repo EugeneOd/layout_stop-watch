@@ -29,8 +29,8 @@ body {
     margin: auto;
     bottom: 49%;
     right: 50%;
-    -webkit-animation: rotation 60s;
-            animation: rotation 60s;
+    -webkit-animation: rotation 60s 0s both infinite linear;
+            animation: rotation 60s 0s both infinite linear;
     transform-origin: 100% 50% 0; }
   .circle__hand-minutes {
     position: absolute;
@@ -42,8 +42,8 @@ body {
     margin: auto;
     bottom: 49%;
     right: 50%;
-    -webkit-animation: rotation 3200s;
-            animation: rotation 3200s;
+    -webkit-animation: rotation 3600s 0s both infinite linear;
+            animation: rotation 3600s 0s both infinite linear;
     transform-origin: 100% 50% 0; }
 
 @-webkit-keyframes rotation {
